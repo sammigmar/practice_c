@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdbool.h>
+/**
+ * There are 3 types of logical operators
+ * Today I will be going over the && logical operator
+ */
+
+int main()
+{
+  float temp = 25.89;
+
+  if(temp >= 10 && temp <= 30)
+    {
+      printf("\nThe weather is good!");
+    }
+  else
+    {
+      printf("The weather is bad!");
+    }
+  return 0;
+}

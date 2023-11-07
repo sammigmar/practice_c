@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+/**
+ * I will be practicing Type Casting with Format Specifiers
+ */
+
+int main()
+{
+  int iris = 10;
+  float pie = 3.14;
+  pie = (float) iris;
+  iris = (int) pie;
+  printf("My grade is %d\n while my former grade was %f\n", iris, pie);
+  return 0;
+}

@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+/**
+ * We will be going over Modulus in direct relation to arithmetic operators
+
+ * We will be going over Augmented assignment operator = Used to replace a statement where an operator takes a variable as one of its arguments and then assigns the result back to the same variable
+
+ * We will also be going over increment and decrements
+ */
+
+int main()
+
+{
+  int x = 5;
+  int y = 2;
+  x = x + 3;
+  /**
+   * The example above is saying that int x is 5 + 3 which equals 8
+   * Now a shorter/simpler way to write this augmented assignment operator would be: x+=2
+   */
+
+  int z = x % y;
+  x++;
+  printf("%d\n", x);
+
+  return 0;
+}
